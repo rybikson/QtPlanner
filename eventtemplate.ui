@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EventTemplate</class>
+ <widget class="QWidget" name="EventTemplate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>70</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelDayOfWeek">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>5</y>
+     <width>80</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>dzień tygodnia</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDate">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>5</y>
+     <width>60</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>dd.MM.yyyy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTime">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>30</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>hh:MM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelRoom">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>5</y>
+     <width>80</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>sala</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelType">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>20</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>typ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTitle">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>240</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>przedmiot</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="description">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>45</y>
+     <width>280</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
